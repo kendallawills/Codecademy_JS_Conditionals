@@ -15,11 +15,21 @@ if (sales) {
     console.log('Time to wait for a sale.');
 }
 
-//Comparison Operators
+// Comparison Operators
 let hungerLevel = 7;
 
 if (hungerLevel > 7) {
     console.log('Time to eat!');
 } else {
     console.log('We can eat later!');
+}
+
+// Logical Operators
+let mood = 'sleepy';
+let tirednessLevel = 6;
+
+if (mood === 'sleepy' && tirednessLevel > 8) {
+    console.log('time to sleep');
+} else {
+    console.log('not bed time yet');
 }
